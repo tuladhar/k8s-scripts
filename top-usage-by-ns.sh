@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Part of k8s-scripts repository (https://github.com/tuladhar/k8s-scripts/)
+# 
 if [[ $1 == "cpu" ]]
 then
     NAMESPACES=$(kubectl get ns -A | awk '{print $1}' | grep -v NAME)
