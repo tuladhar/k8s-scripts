@@ -1,7 +1,14 @@
 # k8s-scripts
+
 A collection of scripts for Kubernetes administration.
 
----
+## Quick Installation
+```
+$ git clone https://github.com/tuladhar/k8s-scripts.git
+$ chmod +x *.sh
+```
+
+## List of scripts
 ### restart-top-10-mem-hunger-deployment.sh - Restart memory hunger pods
 
 ### Usage
