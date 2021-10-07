@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#
+# Part of k8s-scripts repository (https://github.com/tuladhar/k8s-scripts/)
+#
 TOP=10
 NODE=$1
 POD_PREFIX=trinity
